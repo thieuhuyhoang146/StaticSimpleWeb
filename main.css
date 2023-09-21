@@ -1,0 +1,59 @@
+.App {
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+ /* Header */
+.App-header {
+    background-color: #777777; /* Đổi màu nền thành xám */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa theo chiều ngang */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    font-size: calc(16px + 2vmin);
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .section-content {
+    font-size: 16px;
+    color: #333333;
+  }
+  
+/* Footer */
+.App-footer {
+    background-color: #ffffff; /* Đổi màu nền thành trắng */
+    min-height: 10vh; /* Tăng chiều cao của Footer */
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều ngang */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    padding: 10px;
+    font-size: 14px;
+    color: #000000; /* Đổi màu chữ thành đen */
+  }
+  
